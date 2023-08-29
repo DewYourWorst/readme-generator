@@ -2,6 +2,8 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+  ## License:
+  [License](https://img.shields.io/badge/license-${data.license}-blue.svg)
   ## Table of Contents
   - [Description](#description)
   - [Usage](#usage)
@@ -10,6 +12,7 @@ function generateMarkdown(data) {
   - [Problem](#problem)
   - [Lessons](#lessons)
   - [Stand](#stand)
+  - [Contact](#contact)
 
   ## Description:
   ${data.description}
@@ -25,6 +28,9 @@ function generateMarkdown(data) {
   ${data.learn}
   ## Stand:
   ${data.stand}
+  ## Contact
+  - Github: [${data.github}] [(https://github.com/${data.github})]
+  - Email: [${data.email}]
 
 `;
 }

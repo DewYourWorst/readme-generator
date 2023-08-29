@@ -46,6 +46,24 @@ const questions = [
         name:'stand',
         message:'What makes your project stand out?'
     },
+    {
+        type:'checkbox',
+        name:'license',
+        message:'Pick a license that would best fit your project.',
+        choices:['MPL 2.0', 'GNU', 'Apache', 'MIT', 'None of the above']
+    },
+    {
+        type:'input',
+        name:'github',
+        message:'Enter your Github Username'
+    },
+    {
+        type:'input',
+        name:'email',
+        message:'Please Enter your email address'
+    }
+    
+
 ];
 
 // TODO: Create a function to write README file
