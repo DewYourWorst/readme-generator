@@ -20,6 +20,7 @@ THEN I am taken to the corresponding section of the README
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 # Links
 Github Repo: https://github.com/DewYourWorst/readme-generator
+Live Video: https://drive.google.com/file/d/18-KqaLmq2s7SvlHKO5vLrMzrgxK5Nub7/view
 # Screenshots
 
 
